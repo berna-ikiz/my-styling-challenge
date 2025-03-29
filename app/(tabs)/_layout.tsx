@@ -45,6 +45,15 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="cardLayout"
+        options={{
+          title: "Card",
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name="card.fill" color={color} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }
